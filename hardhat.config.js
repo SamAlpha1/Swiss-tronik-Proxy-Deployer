@@ -6,7 +6,7 @@ const accounts = process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [];
 
 module.exports = {
   solidity: {
-    version: "0.8.24",
+    version: "0.8.26",
     settings: {
       optimizer: { enabled: true, runs: 200 }
     }
