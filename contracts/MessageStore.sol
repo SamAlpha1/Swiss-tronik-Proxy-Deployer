@@ -17,7 +17,6 @@ contract MessageStore is Initializable, OwnableUpgradeable, UUPSUpgradeable {
 
     function initialize(string memory initialMessage) public initializer {
         __Ownable_init(msg.sender);
-        __UUPSUpgradeable_init();
         message = initialMessage;
     }
 
